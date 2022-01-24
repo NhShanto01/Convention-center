@@ -1,8 +1,19 @@
+/* Font-Fmaily */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap');
+
+/* Common Styles */
+ 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .logo-color:hover{
     color:peru;
 }
 .btn-color{
-    background-color:paleturquoise;
+    background-color:dodgerblue;
+    color: white;
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: 700;
@@ -31,4 +42,13 @@
 .app-logo img{
     width: 50%;
     float: right;
+}
+.btn-outliner{
+    margin: 0px auto;
+    display: block;
+    padding: 5px 50px;
+}
+.gmail a{
+    text-decoration: none;
+    color:lightslategray;
 }
