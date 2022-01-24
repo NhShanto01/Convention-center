@@ -23,10 +23,11 @@
 
 <body>
     <!-- nab-bar part -->
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
             <div class="container">
-                <a class="navbar-brand" href="#"><span class="fw-bolder fs-4 "> NH /</span>
+                <a class="navbar-brand" href="#"><span class="fw-bolder fs-4 ">NH /</span>
                     <span class="fw-bolder fs-4 logo-color">Convention Center</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -119,72 +120,106 @@
     </header>
 
     <main>
+        <!-- toast -->
+
+        <div class="toast align-items-center show ms-auto mt-5" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div>
+                    <img class="img-fluid mt-2 ms-4" src="icons/Vector.svg" alt="">
+                </div>
+                <div class="toast-body">
+                    20% off on next booking
+                </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+
         <!-- Our Packages -->
+
         <section class="container mt-5 my-5">
             <h2 class="text-center my-5" style="color: royalblue;">Our Packages</h2>
-            <div class="d-flex justify-content-evenly">
-                <div>
+            <div class="d-flex row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 p-3">
+                <div class="mb-2">
                     <h2 class="fw-bold">$300</h2>
                     <h3>Business fair</h3>
                     <p>For most businesses event <br>
                         like book fair, craft fair.</p>
 
-                    <p><i class="far fa-check-circle"> limited space access</i></p>
-                    <p><i class="far fa-check-circle"> Secuirty facility </i></p>
-                    <p><i class="far fa-check-circle"> event support </i></p>
-                    <p><i class="far fa-check-circle"> Decoration design </i></p>
-                    <p><i class="far fa-check-circle"> Per day bill </i></p>
+                    <p><i class="fas fa-check-circle"> limited space access</i></p>
+                    <p><i class="fas fa-check-circle"> Secuirty facility </i></p>
+                    <p><i class="fas fa-check-circle"> event support </i></p>
+                    <p><i class="fas fa-check-circle"> Decoration design </i></p>
+                    <p><i class="fas fa-check-circle"> Per day bill </i></p>
 
                     <button class="btn btn-pack mb-1">Choose plan</button>
                 </div>
-                <div>
+                <div class="mb-2 ">
                     <h2 class="fw-bold">$500</h2>
                     <h3>Business fair</h3>
                     <p>For most businesses event <br>
                         like book fair, craft fair.</p>
 
-                    <p><i class="far fa-check-circle"> limited space access</i></p>
-                    <p><i class="far fa-check-circle"> Secuirty facility </i></p>
-                    <p><i class="far fa-check-circle"> event support </i></p>
-                    <p><i class="far fa-check-circle"> Decoration design </i></p>
-                    <p><i class="far fa-check-circle"> Per day bill </i></p>
+                    <p><i class="fas fa-check-circle"> limited space access</i></p>
+                    <p><i class="fas fa-check-circle"> Secuirty facility </i></p>
+                    <p><i class="fas fa-check-circle"> event support </i></p>
+                    <p><i class="fas fa-check-circle"> Decoration design </i></p>
+                    <p><i class="fas fa-check-circle"> Per day bill </i></p>
 
                     <button class="btn btn-pack mb-1">Choose plan</button>
                 </div>
-                <div class="p-5 position-relative"
+                <div class="p-4 mb-2 position-relative"
                     style="background-color: dodgerblue; color:whitesmoke; border-radius: 25px;">
-                    <span class="p-2 position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                        HOT
-                        <span class="visually-hidden">unread messages</span>
-                    </span>
+
                     <h2 class="fw-bold">$800</h2>
                     <h3>Business fair</h3>
                     <p>For most businesses event <br>
                         like book fair, craft fair.</p>
 
-                    <p><i class="far fa-check-circle"> limited space access</i></p>
-                    <p><i class="far fa-check-circle"> Secuirty facility </i></p>
-                    <p><i class="far fa-check-circle"> event support </i></p>
-                    <p><i class="far fa-check-circle"> Decoration design </i></p>
-                    <p><i class="far fa-check-circle"> Per day bill </i></p>
+
+                    <p><i class="fas fa-check-circle" style="color: white;"> limited space access
+                        </i> </p>
+                    <p><i class="fas fa-check-circle" style="color: white;"> Secuirty facility </i></p>
+                    <p><i class="fas fa-check-circle" style="color: white;"> event support </i></p>
+                    <p><i class="fas fa-check-circle" style="color: white;"> Decoration design </i></p>
+                    <p><i class="fas fa-check-circle" style="color: white;"> Per day bill </i></p>
+
 
                     <button class="btn btn-light text-primary rounded-pill ps-5 pe-5 mb-1 fw-bold">Choose plan</button>
+                    <span class="p-2 position-absolute top-0 start-85% translate-middle badge rounded-pill bg-danger">
+                        HOT
+                        <span class="visually-hidden">unread messages</span>
+                    </span>
                 </div>
-                <div>
+                <div class="mb-2">
                     <h2 class="fw-bold">$1200</h2>
                     <h3>Business fair</h3>
                     <p>For most businesses event <br>
                         like book fair, craft fair.</p>
 
-                    <p><i class="far fa-check-circle"> limited space access</i></p>
-                    <p><i class="far fa-check-circle"> Secuirty facility </i></p>
-                    <p><i class="far fa-check-circle"> event support </i></p>
-                    <p><i class="far fa-check-circle"> Decoration design </i></p>
-                    <p><i class="far fa-check-circle"> Per day bill </i></p>
+                    <p><i class="fas fa-check-circle"> limited space access
+                        </i></p>
+                    <p><i class="fas fa-check-circle"> Secuirty facility </i></p>
+                    <p><i class="fas fa-check-circle"> event support </i></p>
+                    <p><i class="fas fa-check-circle"> Decoration design </i></p>
+                    <p><i class="fas fa-check-circle"> Per day bill </i></p>
 
                     <button class="btn btn-pack mb-1">Choose plan</button>
                 </div>
             </div>
+        </section>
+
+        <section class="container">
+            <!-- wedding -->
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
 
@@ -194,88 +229,103 @@
 
             <h1 class="text-center mb-5 fw-bold">Frequently Asked Questions</h1>
 
-            <div class="d-flex align-items-center ">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                HOW LONG HAVE YOU BEEN DOING THIS AND HOW DID YOU GET TO BE A WEDDING PLANNER?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>I started out in the wedding industry </strong> by going with a local
-                                photographer
-                                and helping to direct the weddings. I would also occasionally meet with him and his
-                                clients
-                                and found that often the couples would ask me for recommendations on flowers, reception
-                                venue, and more.
-                                After going through all of that I realized life is short. It was time to do what I
-                                love…help
-                                people to plan events!
+            <div class="d-flex row">
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    HOW LONG HAVE YOU BEEN DOING THIS AND HOW DID YOU GET TO BE A WEDDING PLANNER?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Ans:</strong> I started out in the wedding industry by going with a local
+                                    photographer
+                                    and helping to direct the weddings. I would also occasionally meet with him and his
+                                    clients
+                                    and found that often the couples would ask me for recommendations on flowers,
+                                    reception
+                                    venue, and more.
+                                    After going through all of that I realized life is short. It was time to do what I
+                                    love…help
+                                    people to plan events!
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                WILL I STILL HAVE SOME CONTROL OVER MY WEDDING IF I HIRE YOUR TEAM AS MY PLANNER?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>Definitely! </strong>We will do as much, or as little, as you want us to do
-                                during
-                                the wedding planning process. We always ask you what you want and we then make our
-                                suggestions to you.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    WILL I STILL HAVE SOME CONTROL OVER MY WEDDING IF I HIRE YOUR TEAM AS MY PLANNER?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Ans:</strong>Definitely! We will do as much, or as little, as you want us to
+                                    do
+                                    during
+                                    the wedding planning process. We always ask you what you want and we then make our
+                                    suggestions to you.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                WHO IS NOT GOING TO BENEFIT FROM YOUR HELP WITH PLANNING THEIR WEDDING?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>If you don't see the value of someone</strong> helping to plan your wedding, or
-                                at
-                                least to pull it all together at the end, then we're not for you. We are very flexible
-                                people and can work with most anyone, but if you're a whiner, pessimist, or chronic
-                                skeptic
-                                then we may not be the best fit for each other. Of course, if you were any of those you
-                                probably wouldn't be getting married, right? I am a very positive person and love when
-                                others are too.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    WHO IS NOT GOING TO BENEFIT FROM YOUR HELP WITH PLANNING THEIR WEDDING?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Ans:</strong>If you don't see the value of someone helping to plan your
+                                    wedding,
+                                    or
+                                    at
+                                    least to pull it all together at the end, then we're not for you. We are very
+                                    flexible
+                                    people and can work with most anyone, but if you're a whiner, pessimist, or chronic
+                                    skeptic
+                                    then we may not be the best fit for each other. Of course, if you were any of those
+                                    you
+                                    probably wouldn't be getting married, right? I am a very positive person and love
+                                    when
+                                    others are too.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                WHAT FORM OF PAYMENT DO YOU ACCEPT AND DO YOU HAVE A PAYMENT PLAN?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>We accept cash, checks, and Paypal.</strong> We do require an initial down
-                                payment to hold the date. We will then work with you to create a payment schedule that
-                                will work for you.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    WHAT FORM OF PAYMENT DO YOU ACCEPT AND DO YOU HAVE A PAYMENT PLAN?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Ans:</strong>We accept cash, checks, and Paypal.We do require an initial
+                                    down
+                                    payment to hold the date. We will then work with you to create a payment schedule
+                                    that
+                                    will work for you.
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div>
-                    <img src="images/people.png" alt="">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="faq-image">
+                        <img src="images/people.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -289,7 +339,7 @@
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
                 <div>
-                    <p class="text-light"> &copy;2020 bike. | All rights reserved</p>
+                    <p class="text-light"> &copy;2022 NH Convention Center | All rights reserved</p>
                 </div>
 
                 <div class="app-logo">
